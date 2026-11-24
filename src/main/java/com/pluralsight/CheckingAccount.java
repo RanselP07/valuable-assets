@@ -1,4 +1,8 @@
 package com.pluralsight;
 
-public class CheckingAccount {
+public class CheckingAccount extends BankAccount {
+
+    public CheckingAccount(double balance) {
+        super(balance);
+    }
 }
